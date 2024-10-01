@@ -1,6 +1,5 @@
 package com.everis.base.Hooks;
 
-import com.everis.base.NetflixService;
 import io.cucumber.java.BeforeStep;
 
 public class Hooks {

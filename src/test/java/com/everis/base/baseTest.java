@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features",
         glue = "com.everis.base",
-        tags = "@CrearOrden", // => Se puede especificar qué Ejecutar
+        tags = "@EjecutarPrueba", // => Se puede especificar qué Ejecutar
         strict = true)
 public class baseTest {
 

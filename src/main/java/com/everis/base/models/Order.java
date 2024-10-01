@@ -1,6 +1,5 @@
 package com.everis.base.models;
 
-
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonPropertyOrder({"id", "petId", "quantity", "shipDate", "status", "complete"})
@@ -12,10 +11,7 @@ public class Order {
     private String status;
     private boolean complete;
 
-
-    public Order(){
-
-    }
+    public Order() {}
 
     public Order(int id, int petId, int quantity) {
         this.id = id;
