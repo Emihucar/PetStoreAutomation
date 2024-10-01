@@ -1,6 +1,8 @@
 @EjecutarPrueba
 Feature: Gestión de órdenes de la tienda
 
+
+
   @CrearOrden
   Scenario Outline: Crear una nueva orden
     Given dado que estoy en la página
